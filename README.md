@@ -4,7 +4,7 @@ Este é um aplicativo de demonstração de conhecimentos em Flutter e Dart. Ele 
 
 ## Funcionalidades
 - Exibição do saldo disponível
-- Visualização detalhada do cartão de crédito
+- Visualização das atividades recentes da conta
 
 ## Ferramentas e Tecnologias
 - Flutter (https://flutter.dev/)
