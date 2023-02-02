@@ -10,10 +10,28 @@ Este é um aplicativo de demonstração de conhecimentos em Flutter e Dart. Ele 
 - Flutter (https://flutter.dev/)
 - Dart (https://dart.dev/)
 
-## Instalação
-1. Clone este repositório para o seu computador
-2. Abra o terminal e navegue até o diretório do projeto
-3. Execute o comando `flutter run` para iniciar o aplicativo no emulador ou dispositivo conectado
+# Instruções para executar o projeto Flutter
+
+## Pré-requisitos
+- Ter o Flutter SDK instalado na máquina
+- Ter um emulador de dispositivo móvel ou conexão com um dispositivo físico
+
+## Passos
+1. Clone o repositório do projeto para sua máquina:
+   git clone https://github.com/seu-usuario/seu-projeto.git
+
+2. Entre na pasta do projeto:
+   cd seu-projeto
+
+3. Instale as dependências do projeto:
+   flutter packages get
+
+4. Inicie o emulador ou conecte o dispositivo físico ao computador
+
+5. Execute o projeto no emulador ou dispositivo:
+   flutter run
+
+6. O aplicativo deve ser carregado no emulador ou dispositivo e estar pronto para uso.
 
 ## Contribuição
 Se você deseja contribuir com este projeto, siga estes passos:
