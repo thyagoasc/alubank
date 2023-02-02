@@ -1,16 +1,22 @@
-# bank_home
+# Alubank
 
-A new Flutter project.
+Este é um aplicativo de demonstração de conhecimentos em Flutter e Dart. Ele simula a tela principal de um banco digital, apresentando informações sobre saldo e extrato.
 
-## Getting Started
+## Funcionalidades
+- Exibição do saldo disponível
+- Visualização detalhada do cartão de crédito
 
-This project is a starting point for a Flutter application.
+## Ferramentas e Tecnologias
+- Flutter (https://flutter.dev/)
+- Dart (https://dart.dev/)
 
-A few resources to get you started if this is your first Flutter project:
+## Instalação
+1. Clone este repositório para o seu computador
+2. Abra o terminal e navegue até o diretório do projeto
+3. Execute o comando `flutter run` para iniciar o aplicativo no emulador ou dispositivo conectado
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contribuição
+Se você deseja contribuir com este projeto, siga estes passos:
+1. Clone o repositório para o seu computador
+2. Crie uma nova branch com a sua contribuição
+3. Envie um pull request para a branch master
