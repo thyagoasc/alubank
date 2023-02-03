@@ -19,7 +19,7 @@ Este é um aplicativo de demonstração de conhecimentos em Flutter e Dart. Ele 
 
 ## Passos
 1. Clone o repositório do projeto para sua máquina:
-   git clone https://github.com/seu-usuario/seu-projeto.git
+   git clone https://github.com/thyagoasc/alubank.git
 
 2. Entre na pasta do projeto:
    cd seu-projeto
