@@ -42,11 +42,11 @@ class _AccountScoreContent extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(
+        const Padding(
+          padding: EdgeInsets.symmetric(
             vertical: 8.0,
           ),
-          child: const Text('Pontos totais'),
+          child: Text('Pontos totais'),
         ),
         Padding(
           padding: const EdgeInsets.symmetric(
@@ -58,11 +58,11 @@ class _AccountScoreContent extends StatelessWidget {
           ),
         ),
         const ContentDivision(),
-        Padding(
-          padding: const EdgeInsets.symmetric(
+        const Padding(
+          padding: EdgeInsets.symmetric(
             vertical: 8.0,
           ),
-          child: const Text('Objetivos'),
+          child: Text('Objetivos'),
         ),
         Padding(
           padding: const EdgeInsets.symmetric(

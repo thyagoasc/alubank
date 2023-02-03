@@ -1,5 +1,5 @@
-import 'package:bank_home/components/sections/account_score.dart';
 import 'package:flutter/material.dart';
+import 'package:bank_home/components/sections/account_score.dart';
 import 'package:bank_home/components/sections/account_actions.dart';
 import 'package:bank_home/components/sections/recent_activity.dart';
 import 'package:bank_home/components/sections/header.dart';
@@ -11,11 +11,19 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: const <Widget>[
-          Header(),
-          RecentActivity(),
-          AccountActions(),
-          AccountScore(),
+        children: <Widget>[
+          const Header(),
+          Expanded(
+            child: SingleChildScrollView(
+              child: Column(
+                children: const <Widget>[
+                  RecentActivity(),
+                  AccountActions(),
+                  AccountScore(),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
