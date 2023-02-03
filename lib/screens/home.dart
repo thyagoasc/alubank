@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:bank_home/components/sections/account_actions.dart';
 import 'package:bank_home/components/sections/recent_activity.dart';
 import 'package:bank_home/components/sections/header.dart';
 
@@ -12,6 +13,7 @@ class Home extends StatelessWidget {
         children: const <Widget>[
           Header(),
           RecentActivity(),
+          AccountActions(),
         ],
       ),
     );
