@@ -9,6 +9,11 @@ class ThemeColors {
     'income': Color.fromRGBO(191, 69, 198, 1.0),
   };
 
+  static const accountScore = {
+    'deliver': Color.fromRGBO(255, 0, 112, 1.0),
+    'streaming': Color.fromRGBO(75, 89, 191, 1.0),
+  };
+
   static const Color division = Color.fromRGBO(166, 166, 166, 1.0);
 
   static const MaterialColor primaryColor = Colors.purple;

@@ -9,7 +9,7 @@ class Header extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.fromLTRB(
         16.0,
-        83.0,
+        47.0,
         16.0,
         16.0,
       ),

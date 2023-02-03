@@ -1,3 +1,4 @@
+import 'package:bank_home/components/sections/account_score.dart';
 import 'package:flutter/material.dart';
 import 'package:bank_home/components/sections/account_actions.dart';
 import 'package:bank_home/components/sections/recent_activity.dart';
@@ -14,6 +15,7 @@ class Home extends StatelessWidget {
           Header(),
           RecentActivity(),
           AccountActions(),
+          AccountScore(),
         ],
       ),
     );
