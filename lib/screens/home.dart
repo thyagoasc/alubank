@@ -10,21 +10,23 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: <Widget>[
-          const Header(),
-          Expanded(
-            child: SingleChildScrollView(
-              child: Column(
-                children: const <Widget>[
-                  RecentActivity(),
-                  AccountActions(),
-                  AccountScore(),
-                ],
+      body: SafeArea(
+        child: Column(
+          children: <Widget>[
+            const Header(),
+            Expanded(
+              child: SingleChildScrollView(
+                child: Column(
+                  children: const <Widget>[
+                    RecentActivity(),
+                    AccountActions(),
+                    AccountScore(),
+                  ],
+                ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
