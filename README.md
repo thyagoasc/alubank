@@ -22,7 +22,7 @@ Este é um aplicativo de demonstração de conhecimentos em Flutter e Dart. Ele 
    git clone https://github.com/thyagoasc/alubank.git
 
 2. Entre na pasta do projeto:
-   cd seu-projeto
+   cd alubank
 
 3. Instale as dependências do projeto:
    flutter packages get
